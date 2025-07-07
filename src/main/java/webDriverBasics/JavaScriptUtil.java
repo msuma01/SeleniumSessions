@@ -99,8 +99,8 @@ public class JavaScriptUtil {
 	
 	public void flash(WebElement element) {
 		String bgcolor = element.getCssValue("backgroundColor");//white
-		for (int i = 0; i < 100; i++) {
-			changeColor("rgb(200,0,0)", element);// Green
+		for (int i = 0; i < 10; i++) {
+			changeColor("rgb(0,200,0)", element);// Green
 			changeColor(bgcolor, element);// While
 	
 		}
